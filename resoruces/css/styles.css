@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  /* The font next to the , is the deafult font in case the user doesn't have internet */
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 60px;
+  color: rgb(70, 70, 70);
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.invisible {
+  display: none;
+}
+
+/* ------------------------------------------- */
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.site-logo {
+  width: 8%;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.header-links {
+  list-style-type: none;
+}
+
+.header-links li a:visited,
+.header-links li a:link {
+  font-weight: 100;
+  text-decoration: none;
+  color: #000;
+  margin: 0 10px;
+  padding: 5px 8px 16px 8px;
+  border-bottom: 3px solid transparent;
+  transition: 0.15s ease-in-out;
+}
+
+.header-links li {
+  display: inline;
+}
+
+.header-links a:link:hover,
+.header-links a:visited:hover {
+  border-bottom: 3px solid red;
+}
+
+.one-edge-shadow {
+  box-shadow: 0 8px 4px -10px black;
+}
+
+.tema {
+  margin-top: 20px;
+  color: rgb(236, 49, 49);
+}
+
+.section-content {
+  padding: 10px 40px 50px 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(216, 216, 216);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.datos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+  padding: 0px 10px 15px 10px;
+}
+
+.circuito {
+  width: 40%;
+  margin-bottom: 90px;
+}
+
+.pilotos {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  align-items: center;
+}
+
+.datos-piloto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+  height: 300px;
+  justify-content: end;
+}
+
+.datos-piloto h3 {
+  align-items: baseline;
+}
+
+.datos-piloto img {
+  margin-top: 30px;
+}
+
+.datos-piloto p {
+  margin-top: 10px;
+}
+
+.primero {
+  font-size: 110px;
+  color: rgb(231, 219, 49);
+}
+
+.segundo {
+  font-size: 80px;
+  color: rgb(109, 109, 109);
+}
+
+.tercero {
+  font-size: 60px;
+  color: rgb(105, 73, 32);
+}
+
+.datos-clima {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.datos-circuito h3 {
+  color: rgb(204, 44, 44);
+}
+
+.datos-circuito p {
+  margin-bottom: 30px;
+}
+
+.datos-clima p {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.datos-siguiente {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.datos-circuito {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 120px;
+  border: 1px solid rgba(134, 134, 134, 0.26);
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+footer {
+  height: auto;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-links a:link,
+.footer-links a:visited {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+footer p {
+  display: block;
+}
