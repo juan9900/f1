@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 html,
 body {
   background-color: #fff;
@@ -43,7 +38,8 @@ h3 {
 }
 
 .site-logo {
-  width: 8%;
+  height: 60px;
+  width: 100px;
 }
 
 .site-header {
@@ -96,6 +92,7 @@ header {
   border: 1px solid rgb(216, 216, 216);
   margin-top: 10px;
   margin-bottom: 20px;
+  background: #fbfbfb;
 }
 
 .datos {
@@ -138,6 +135,7 @@ header {
 
 .datos-piloto p {
   margin-top: 10px;
+  font-weight: 400;
 }
 
 .primero {
