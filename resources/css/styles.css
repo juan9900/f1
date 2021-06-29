@@ -74,6 +74,7 @@ header {
   padding: 5px 8px 18px 8px;
   border-bottom: 4px solid transparent;
   transition: 0.15s ease-in-out;
+  font-weight: 100;
 }
 
 .header-links li {
@@ -82,12 +83,12 @@ header {
 
 .header-links a:link:hover,
 .header-links a:visited:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 4px solid red;
 }
 
 /* Inicio */
 .inicio {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../css/img/banner.jpg);
   background-attachment: scroll, scroll;
   background-position: bottom;
@@ -220,7 +221,7 @@ header {
 }
 
 .historia {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../css/img/banner-historia.jpg);
   background-attachment: scroll, scroll;
   background-position: center;
@@ -233,7 +234,7 @@ header {
 
 .historia p {
   margin-bottom: 10px;
-  color: rgb(204, 204, 204);
+  color: rgb(221, 221, 221);
   font-size: 23px;
 }
 
@@ -243,11 +244,13 @@ header {
   color: rgb(245, 245, 245);
 }
 
+/* POSICIONES */
+
 .posiciones {
   padding: 25px 0;
 }
 
-.pilotos {
+.pilotos-pos {
   margin-top: 10px;
   border: 1px solid rgb(238, 238, 238);
   display: flex;
@@ -288,6 +291,46 @@ header {
 .puntos h4 {
   margin-right: 45px;
 }
+
+/* CONTACTO */
+
+.section-contact {
+  padding-top: 1rem;
+}
+
+.form-position {
+  margin-top: 1rem;
+}
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 4px;
+  padding: 0.3rem 0.5rem;
+}
+
+textarea {
+  height: 5rem;
+  resize: none;
+}
+
+.submit {
+  margin-top: 1.2rem;
+}
+
+.contact-form .row {
+  margin-bottom: 0.7rem;
+}
+
+/* FOOTER */
 
 footer {
   height: auto;
