@@ -35,6 +35,18 @@ h3 {
   display: none;
 }
 
+.boton {
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.boton-rojo {
+  background-color: rgb(236, 49, 49);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
 /* ------------------------------------------- */
 
 .container {
@@ -286,6 +298,7 @@ header {
 
 .datos-1 h4 {
   font-size: 40px;
+  align-self: bottom;
 }
 
 .puntos h4 {
@@ -294,6 +307,22 @@ header {
 
 /* CONTACTO */
 
+.contacto {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../css/img/banner-contacto.jpg);
+  background-attachment: scroll, scroll;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  background-position-y: 50px;
+  padding: 29px 0;
+  color: #fff;
+}
+
+.contacto h2 {
+  color: #fff;
+}
 .section-contact {
   padding-top: 1rem;
 }

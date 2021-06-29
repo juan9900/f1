@@ -214,6 +214,73 @@
       </div>
     </section>
 
+    <section class="contacto">
+      <div class="container">
+        <div class="row">
+          <h2>Contacto</h2>
+        </div>
+
+        <div class="row form-position">
+          <form action="post" class="contact-form">
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="name">Nombre</label>
+              </div>
+              <div class="col span-2-of-3" id="me">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Tu nombre"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="email">E-mail</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Tu E-mail"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="newsletter">Unirte al newsletter?</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="checkbox" id="news" checked />
+                &ThinSpace; Si.
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="message">Dejanos un mensaje</label>
+              </div>
+              <div class="col span-2-of-3">
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row submit center-text">
+              <input type="submit" value="Enviar" class="boton boton-rojo" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <ul class="footer-links">
         <li><a href="#">Inicio</a></li>
