@@ -158,15 +158,17 @@ header {
 }
 
 .circuito {
-  width: 40%;
+  width: 500px;
+  height: 300px;
   margin-bottom: 90px;
 }
 
 .pilotos {
   display: flex;
   flex-direction: row;
-  margin-left: 25px;
   align-items: center;
+  justify-content: center;
+  margin-top: 12%;
 }
 
 .datos-piloto {
@@ -182,8 +184,14 @@ header {
   align-items: baseline;
 }
 
+.datos-piloto h2 {
+  color: rgb(204, 44, 44);
+}
+
 .datos-piloto img {
   margin-top: 30px;
+  width: 206px;
+  height: 206px;
 }
 
 .datos-piloto p {
@@ -193,17 +201,46 @@ header {
 
 .primero {
   font-size: 110px;
-  color: rgb(231, 219, 49);
 }
 
 .segundo {
   font-size: 80px;
-  color: rgb(109, 109, 109);
 }
 
 .tercero {
   font-size: 60px;
-  color: rgb(105, 73, 32);
+}
+
+@media only screen and (max-width: 1720px) {
+  .circuito {
+    width: 400px;
+    height: 250px;
+  }
+
+  h2.primero {
+    font-size: 80px;
+  }
+
+  h2.segundo {
+    font-size: 60px;
+  }
+
+  h2.tercero {
+    font-size: 40px;
+  }
+
+  .datos-piloto h3 {
+    font-size: 20px;
+  }
+
+  .datos-piloto img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
 }
 
 .datos-clima {
@@ -243,6 +280,8 @@ header {
   box-shadow: 3px 3px 5px 6px #ccc;
 }
 
+/* HISTORIA */
+
 .historia {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../css/img/banner-historia.jpg);
@@ -257,7 +296,7 @@ header {
 
 .historia p {
   margin-bottom: 10px;
-  color: rgb(221, 221, 221);
+  color: rgb(243, 243, 243);
   font-size: 23px;
 }
 
